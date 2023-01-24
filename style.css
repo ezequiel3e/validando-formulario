@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Roboto;
+}
+
+.contact-us {
+    background-image: linear-gradient(to right, #1b2f33, #4f3666);
+    color: white;
+    padding: 40px;
+    padding-left: 50rem;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+  form{
+padding: 40px;
+
+  }
+
+  .inputField {
+    padding: 10px;
+  }
+
+  .inputField label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 0.25rem;
+  }
+
+  .inputField input {
+    width: 320px;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+    outline: none;
+
+  }
+
+  .error {
+    font-size: 12px;
+    color: red;
+  }
+
+  hr {
+    height: 1px;
+    border: none;
+    background-image: linear-gradient(to right, #46666d, #3b1b58);
+    margin: 30px 0;
+  }
+
+
+  button {
+    padding: 8px 25px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #28383b;
+    border-radius: 6px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 7rem;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, #182b30, #4a276b);
+    color: white;
+    border: 1px solid #fff;
+  }
+
+  .invalid {
+    border: 1px solid red;
+  }
+
+  .error-hidden {
+    display: none;
+  }
+
+  .thanks {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .main{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
